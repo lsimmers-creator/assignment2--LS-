@@ -9,3 +9,6 @@ species_count
 
 # Save the output to upload to GitHub
 write.csv(species_count, "species_count.csv")
+
+#New Analysis 
+hist(penguins$body_mass_g)
